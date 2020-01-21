@@ -1,0 +1,12 @@
+[
+	{
+		"name": "react-express-demo",
+		"script": "server/app.js",
+		"watch": ["server/*.js", "server/**/*.js"],
+		"env": {
+			"NODE_ENV": "dev",
+			"PORT": 4242,
+			"NODE_APP_INSTANCE": "react-express-demo"
+		}
+	}
+]
